@@ -32,7 +32,7 @@ app.post('/send-email', (req, res) => {
 
     const mailOptions = {
         from: '3citsolutionsntelecom@gmail.com', // Sender's email
-        to: 'dishank@3citsolutions.com ', 
+        to: 'yash@3citsolutions.com ', 
         subject: 'Rental Request',
         text: message
     };
